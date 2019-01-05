@@ -9,7 +9,7 @@ public class Lesson03 {
 	 * 		+ MyNumber(int[] numbers) - Khởi tạo giá trị cho mảng số nguyên arrNumber 
 	 * 		+ GetPrimeNumbers() - Trả ra một mảng các số nguyên tố từ mảng arrNumber
 	 * 		+ GetSummary() - Trả ra tổng các số nguyên tố tìm được
-	 * 
+	 * 		+ GetPrimeOrderList() - Trả ra list số nguyên tố đã được sắp xếp theo thứ tự tăng dần
 	 * Bài 02: Viết Test method cho 2 methods  GetPrimeNumbers và GetSummary ở trên
 	 */
 }
