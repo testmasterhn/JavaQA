@@ -2,6 +2,8 @@ package javaforqa;
 
 import java.util.ArrayList;
 
+import javax.xml.bind.ParseConversionEvent;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -58,6 +60,11 @@ public class Lesson02 {
 			for (int i = 0; i < arrNumber.length; i++) {
 				if (IsPrime(arrNumber[i])) {
 					lstPrimeNumber.add(arrNumber[i]);
+					
+					int a = (int) lstPrimeNumber.get(0);
+					
+					int t = Integer.parseInt(lstPrimeNumber.get(0).toString());
+					
 				}
 			}
 
