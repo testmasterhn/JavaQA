@@ -33,11 +33,17 @@ public class Lesson04 {
 			this.number = number;
 		}
 
-		public ArrayList Get_Sochan() {
+		public ArrayList<Integer> Get_Sochan() {
 			// Cần lặp từ đầu 0 đến number, mỗi lần lặp kiểm tra số tại vị trí lặp
 			// nếu chia hết cho 2 thì lưu lại
-			ArrayList arrOrderNumber = new ArrayList(); // Để lưu kq kt
-
+			//ArrayList arrOrderNumber = new ArrayList(); // Để lưu kq kt
+			
+			//Khai báo ArrayList có kiểu như sau
+			ArrayList<Integer> arrOrderNumber = new ArrayList<Integer>();
+			//Mỗi một kiểu premitive sẽ có một class tương ứng. 
+			// Sử dụng class này để định kiểu cho ArrayList
+			//int a = arrOrderNumber.get(0);
+					
 			for (int i = 0; i < number; i++) {
 				if (i % 2 == 0) {
 					arrOrderNumber.add(i);
